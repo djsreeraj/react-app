@@ -1,6 +1,8 @@
 import './App.css';
 import { Component } from 'react';
-import Form from './components/Form';
+// import Form from './components/Form';
+import FormUncontrolled from './components/FormUncontrolled';
+// import Intro from './components/Intro';
 //import Counter from './components/Counter';
 //import Counter from './components/Intro';
 
@@ -15,7 +17,10 @@ class App extends Component{
     return(
 
       <div className="container"> 
-        <Form />
+        {/* <Intro/>
+        <Counter/>
+        <Form /> */}
+        <FormUncontrolled/>
       </div>
     )
   }
